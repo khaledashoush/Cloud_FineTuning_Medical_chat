@@ -519,6 +519,7 @@ The following files are generated during execution and are too large for GitHub 
 | **EC2 Security Group** | `EC2 SG` |
 | **S3 Bucket** | `25cdkg-medical-qa` |
 
-
+---
 > ⚠️ **`model.safetensors`** is not included due to its large size (~100 MB). 
 > It is generated automatically when you run `Fine_Tuning.ipynb` — the training process creates it.
+---
