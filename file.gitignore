@@ -1,0 +1,8 @@
+# Never upload these
+*.pem
+outputs/
+unsloth_compiled_cache/
+medical_qa_model_lora/
+medical_qa_gguf/
+__pycache__/
+.ipynb_checkpoints/
