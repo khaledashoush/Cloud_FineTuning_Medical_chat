@@ -1,4 +1,3 @@
-[README .md](https://github.com/user-attachments/files/27282239/README.md)
 # 🏥 MedAssist — Cloud-Based Medical QA Chat Assistant
 
 **CISC 886 — Cloud Computing | Queen's University NetID:** 25cdkg
@@ -519,3 +518,7 @@ The following files are generated during execution and are too large for GitHub 
 | **EMR Security Group** | `EMR SG` |
 | **EC2 Security Group** | `EC2 SG` |
 | **S3 Bucket** | `25cdkg-medical-qa` |
+
+
+> ⚠️ **`model.safetensors`** is not included due to its large size (~100 MB). 
+> It is generated automatically when you run `Fine_Tuning.ipynb` — the training process creates it.
