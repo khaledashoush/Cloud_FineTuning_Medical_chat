@@ -441,23 +441,18 @@ aws s3 rb s3://25cdkg-medical-qa --force
 
 ## 💰 Cloud Infrastructure Cost Summary
 
-| Service                  | Service Total | April 2026* | May 2026* |
-|--------------------------|---------------|-------------|-----------|
-| *Total costs*          | *$2.51*     | *$2.51*   | *$0.00* |
-| Elastic MapReduce        | $1.22         | $1.22       | -         |
-| Elastic Load Balancing   | $0.65         | $0.65       | -         |
-| EC2-Other                | $0.30         | $0.30       | $0.00     |
-| VPC                      | $0.30         | $0.30       | $0.00     |
-| EC2-Instances            | $0.02         | $0.02       | $0.00     |
-| S3                       | $0.01         | $0.01       | $0.00     |
-| Secrets Manager          | $0.00         | $0.00       | $0.00     |
-| CloudShell               | $0.00         | $0.00       | -         |
-| Glue                     | $0.00         | $0.00       | $0.00     |
-| Key Management Service   | $0.00         | $0.00       | -         |
-| SNS                      | $0.00         | $0.00       | -         |
-| SQS                      | $0.00         | $0.00       | -         |
-| Tax                      | $0.00         | -           | $0.00     |
-| Data Transfer            | -$0.00        | -           | -$0.00    |
+| Service | Service Total | 29-April 2026 | 2-May 2026* |
+|---------|--------------|------------|-----------|
+| *Total costs* | *$19.90* | *$2.76* | *$17.14* |
+| EC2-Instances | $14.92 | $0.17 | $14.75 |
+| Tax | $2.10 | - | $2.10 |
+| Elastic MapReduce (EMR) | $1.22 | $1.22 | - |
+| Elastic Load Balancing | $0.65 | $0.65 | - |
+| EC2-Other | $0.52 | $0.39 | $0.13 |
+| VPC | $0.47 | $0.32 | $0.15 |
+| S3 | $0.02 | $0.01 | $0.00 |
+
+> Total project cost: *$19.90 USD*. All resources were terminated after use. Source: AWS Cost Explorer.
 
 ### By Service (Actual — AWS Cost Explorer, April 2026)
 
