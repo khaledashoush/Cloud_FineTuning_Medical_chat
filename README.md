@@ -60,7 +60,7 @@ Step 6 → Teardown             # Terminate all resources
 ├── S3/                           # Local copy of S3 data (train.jsonl, val.jsonl, test_qa.jsonl) 
 ├── README.md                     # This file
 ├── .gitignore                    # Excludes large model files and keys
-├── Data_Preprocessing.ipynb      # PySpark preprocessing notebook (Section 4)
+├── Data_Preprocessing.py      # PySpark preprocessing notebook (Section 4)
 ├── Fine_Tuning.ipynb             # Model fine-tuning notebook (Section 5)
 ├── Complete_Code_MQA.ipynb       # Combined complete pipeline notebook
 ├── install_deps.txt              # Python dependencies list
