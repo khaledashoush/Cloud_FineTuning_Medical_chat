@@ -282,9 +282,9 @@ aws emr terminate-clusters --cluster-ids j-XXXXXXXXXXXXX
 ```python
 lora_config = LoraConfig(
     r=16,
-    lora_alpha=32,
-    target_modules=["q_proj", "v_proj", "k_proj", "o_proj"],
-    lora_dropout=0.05,
+    lora_alpha=16,
+    target_modules=["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
+    lora_dropout=0,
     bias="none",
     task_type="CAUSAL_LM"
 )
@@ -295,8 +295,8 @@ lora_config = LoraConfig(
 ```python
 training_args = TrainingArguments(
     output_dir="./medical_qa_model_lora",
-    num_train_epochs=3,
-    per_device_train_batch_size=4,
+    num_train_epochs=2,
+    per_device_train_batch_size=2,
     gradient_accumulation_steps=4,
     learning_rate=2e-4,
     fp16=True,
